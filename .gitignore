@@ -1,0 +1,77 @@
+# Salesforce .gitignore
+
+# Local configuration
+**/.*.swp
+**/.DS_Store
+**/Thumbs.db
+
+# Logs
+logs
+**/debugLogs/
+
+# Salesforce - Package directories
+**/node_modules/
+**/bower_components/
+
+# Salesforce - Distribution / build
+dist
+tmp
+build
+out
+
+# SFDX
+.sfdx/
+**/.sfdx/
+
+# Force.com IDE specific
+Referenced Packages
+.salesforce
+.metadata
+**/.settings/
+
+# Eclipse specific
+.project
+.classpath
+
+# JetBrains specific
+.idea/
+*.iml
+*.iws
+
+# VsCode specific
+.vscode/
+.settings/
+
+# Package files
+**/package.xml
+
+# Log and data files
+**/*.log
+**/*.data
+
+# OS generated files
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Others
+**/node/
+**/lwc/
+**/aura/
+**/.project
+**/.factorypath
+**/sessionCache
+**/.apexSession
+**/test-result-codecoverage.json
+**/test-result.json
+**/.config
+**/project-scratch-def.json
+
+# Ignore specific metadata types, if needed
+#**/classes/*
+#**/objects/*
+#**/pages/*
+#**/triggers/*
+#**/workflows/*
+
